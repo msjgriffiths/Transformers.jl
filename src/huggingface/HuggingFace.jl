@@ -30,6 +30,10 @@ macro hgf_str(name)
   :(load_hgf_pretrained($(esc(name))))
 end
 
+macro 🤗_str(name)
+  :(load_hgf_pretrained($(esc(name))))
+end
+
 """
   `load_hgf_pretrained(name)`
 
